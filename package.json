@@ -2,12 +2,6 @@
   "name": "@teselagen/source",
   "version": "0.2.0",
   "license": "MIT",
-  "scripts": {
-    "postinstall": "patch-package",
-    "prepare": "husky install",
-    "e2e": "nx affected --base=master --head=HEAD -t e2e",
-    "test": "nx affected -t test"
-  },
   "private": true,
   "dependencies": {
     "@blueprintjs/core": "3.52.0",
