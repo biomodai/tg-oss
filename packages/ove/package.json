@@ -1,13 +1,13 @@
 {
   "name": "@teselagen/ove",
   "version": "0.5.14",
-  "main": "./src/index.js",
+  "main": "dist/index.js",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./index.es.js",
-      "require": "./index.cjs.js"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
     },
-    "./style.css": "./style.css"
+    "./style.css": "./dist/style.css"
   }
 }
